@@ -13,7 +13,7 @@ SECRET_KEY = os.getenv("SECRET_KEY", default="dasdadadasdsadadada")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv("DEBUG", default=False)
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["xterlock2000.pythonanywhere.com"]
 
 # Application definition
 
